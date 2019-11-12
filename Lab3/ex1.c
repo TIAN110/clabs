@@ -3,7 +3,7 @@
 
 int  strindex(char s[], char t[]);
 int  strindex2(char s[], char t[]);
-main()
+int main()
 {
     char s[] = "hello 00000 hello 00000";
     char t[] = "hello";
