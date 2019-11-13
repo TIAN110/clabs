@@ -1,6 +1,20 @@
 #include<stdio.h>
-int main(int argc, char *argv[])
+int Bitcount;
+int main()
 {
-    unsigned int max_int = 0-1;
-    printf("The max value of unsigned int on 32 machine: %u/n", max_int);
+    unsigned int a=0;
+    unsigned int max=~a;
+    printf("max number:%u\n",max);
+    return 0;
 }
+int bitcount(unsigned x)
+{
+    while ((x!=0))
+    {
+        x>>1;
+        printf("max bit of number;%u\n",bitcount);
+        return 0;
+    }
+    
+}
+
