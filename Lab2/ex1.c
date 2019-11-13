@@ -12,7 +12,7 @@ int bitcount(unsigned x)
     while ((x!=0))
     {
         x>>1;
-        printf("max bit of number:%u\n",bitcount);
+        printf("max bit of number:%u\n");
         return 0;
     }
     
