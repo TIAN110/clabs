@@ -1,6 +1,6 @@
 #include<stdio.h>
 int Bitcount;
-int main(bitcount)
+int main()
 {
     unsigned int a=0;
     unsigned int max=~a;
