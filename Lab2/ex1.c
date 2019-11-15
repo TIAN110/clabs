@@ -1,6 +1,6 @@
 #include<stdio.h>
 int Bitcount;
-int main()
+int main(bitcount)
 {
     unsigned int a=0;
     unsigned int max=~a;
@@ -8,13 +8,11 @@ int main()
     return 0;
 }
 int bitcount(unsigned x)
-{
+ {
     while ((x!=0))
     {
         x>>1;
         printf("max bit of number:%u\n",bitcount);
         return 0;
     }
-    
-}
-
+ }
